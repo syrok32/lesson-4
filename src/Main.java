@@ -54,6 +54,7 @@ public class Main {
                 System.out.println("есть стоячие места");
             }
 
+
         }else {
             System.out.println("нету мест");
         }
