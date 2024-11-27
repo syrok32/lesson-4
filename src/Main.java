@@ -13,21 +13,17 @@ public class Main {
             System.out.println("тебе меньше 18 лет");
         }
 
-        int temp = 6;
+        int temp = 3;
         if (temp > 5) {
             System.out.println("На улице " + temp+ " градусов, нужно надеть шапку");
-        }
-        temp = 3;
-        if (temp <= 5) {
+        }else if (temp <= 5) {
                 System.out.println("На улице " + temp+ " можно идти без шапки");
             }
 
         int speed  =100;
         if (speed > 60){
             System.out.println("«Если скорость "+ speed +" то придется заплатить штраф");
-        }
-        speed = 50;
-        if (speed <= 60){
+        }else if (speed <= 60){
             System.out.println("«Если скорость "+ speed + " можно ездить спокойно ");
         }
         int personAge = 19;
@@ -45,9 +41,9 @@ public class Main {
         int kidAge = 6;
         if (5 < kidAge && kidAge < 14) {
             System.out.println("Если возраст ребенка равен "+kidAge+", то ему можно кататься на аттракционе в сопровождении");
-        } else if (5 > kidAge) {
+        } else if (5 >= kidAge) {
             System.out.println("Если возраст ребенка равен "+kidAge+", то ему нельзя кататься на аттракционе");
-        }  else if (14 < kidAge) {
+        }  else if (14 <= kidAge) {
             System.out.println("Если возраст ребенка равен "+kidAge+", то ему можно кататься без сопровождения взрослого");}
 
         int plase = 65;
@@ -57,6 +53,7 @@ public class Main {
             } else if (60 < plase && plase <= 102){
                 System.out.println("есть стоячие места");
             }
+
 
         }else {
             System.out.println("нету мест");
